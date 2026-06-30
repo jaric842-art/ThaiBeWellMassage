@@ -34,7 +34,7 @@ const IMAGES = {
   gallery1: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782842085/WhatsApp_Image_2026-06-24_at_21.13.05_1_qhbfub.jpg",
   gallery2: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782842283/WhatsApp_Image_2026-06-24_at_13.46.32_3_b8g6lr.jpg",
   gallery3: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782846485/WhatsApp_Image_2026-06-24_at_21.11.46_nujkjw.jpg",
-  logo: "/logo.png",
+  logo: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782842236/WhatsApp_Image_2026-06-22_at_09.58.31_1_-removebg-preview_sqa2wp.png"
 
 };
 
