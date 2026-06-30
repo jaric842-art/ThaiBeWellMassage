@@ -29,12 +29,14 @@ import {
 
 // Image URLs
 const IMAGES = {
-  hero: "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/Qa5vxLNDA55wJQewKnGNn8/hero-bg-5MvQu42Yoqqofz8vmJPfo6.webp",
-  therapist: "/manus-storage/therapist-portrait_304febe0.jpg",
-  gallery1: "/manus-storage/massage-session_e5077aea.jpg",
-  gallery2: "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/Qa5vxLNDA55wJQewKnGNn8/gallery-2-iGLaogaQTG2yCjgewGuFcB.webp",
-  gallery3: "/manus-storage/massage-at-home_df345896.jpg",
+  hero: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782846386/ee5533b2-6080-4e41-994f-3e52269df1ba_h07lcc.png",
+  therapist: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782763400/WhatsApp_Image_2026-06-24_at_13.46.32_2_j9ioqn.jpg",
+  gallery1: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782842085/WhatsApp_Image_2026-06-24_at_21.13.05_1_qhbfub.jpg",
+  gallery2: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782842283/WhatsApp_Image_2026-06-24_at_13.46.32_3_b8g6lr.jpg",
+  gallery3: "https://res.cloudinary.com/dbixnvc2a/image/upload/v1782846485/WhatsApp_Image_2026-06-24_at_21.11.46_nujkjw.jpg",
+  logo: "/logo.png"
 };
+
 
 // Animation variants
 const fadeInUp = {
