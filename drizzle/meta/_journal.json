@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1782384586311,
+      "tag": "0000_puzzling_jackpot",
+      "breakpoints": true
+    }
+  ]
+}
