@@ -116,7 +116,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between h-28 md:h-36 px-4 lg:px-8">
         <a href="#home" className="flex items-center">
           <img
-            src="/manus-storage/logo-transparent_73240e7a.png"
+            src={IMAGES.logo}
             alt="Be Well Thai Massage"
             className={`h-28 md:h-36 w-auto transition-all duration-300 ${scrolled ? "" : "brightness-0 invert"}`}
           />
