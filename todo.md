@@ -1,0 +1,42 @@
+# Project TODO
+
+- [x] Set up elegant theming (color palette, fonts, global styles)
+- [x] Hero section with headline, subheadline, CTA button, wellness background
+- [x] Sticky navigation bar with smooth scroll links and persistent CTA
+- [x] Services section with Thai massage types, descriptions, durations
+- [x] Pricing section with clear pricing cards
+- [x] About section introducing therapist, certifications, mobile concept
+- [x] How It Works section (Book → Confirm → Relax at Home)
+- [x] Testimonials/Reviews section with star ratings
+- [x] Promotion section with special offer
+- [x] Service area section indicating coverage around Putte
+- [x] Contact & Booking section with form (name, phone, email, date/time, service, address)
+- [x] Footer with contact info, social links, navigation
+- [x] WhatsApp click button
+- [x] Phone click button
+- [x] Framer Motion animations (fade-in, smooth scroll, hover, parallax)
+- [x] Fully responsive design
+- [x] SEO optimization (meta tags, Open Graph, structured data)
+- [x] High-quality wellness imagery
+- [x] Remove background from logo and integrate into website navigation
+- [x] Replace About section photo with real therapist photo (wai greeting)
+- [x] Replace gallery sfeerbeelden 1 and 3 with real photos
+- [x] Add interactive price calculator below pricing section
+- [x] Google Maps Distance Matrix API integration for distance/travel time
+- [x] Google Maps Autocomplete for address input
+- [x] Glassmorphism design with smooth animations
+- [x] Live calculation without page reload
+- [x] Show distance, travel time, travel cost, massage price, total price
+- [x] Disclaimer about indicative pricing
+- [x] Update prices: 90min=€120, 120min=€135
+- [x] Remove 60min as booking option (minimum 90 min booking)
+- [x] Make minimum booking requirement clearly visible
+- [x] Update promotion: €120 for 120 min until 30 September 2026
+- [x] Fix prices: show all (60min=€80, 90min=€120, 120min=€135) but only allow booking 120min
+- [x] Calculator only shows 120 min option
+- [x] Booking form only shows 120 min option
+- [x] Make clear: minimum booking is 120 minuten (2 uur)
+- [x] Redesign calculator: add massage type selector first, then "minimum 120 min" note, then address
+- [x] Make calculator look more professional/cool with massage type selection
+- [x] Ensure WhatsApp and booking buttons work correctly (link to real WhatsApp)
+- [x] Fix escaped unicode characters (\u20AC, \u2022) showing in calculator results
