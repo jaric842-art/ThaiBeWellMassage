@@ -1188,20 +1188,21 @@ function ContactSection() {
     onError: (err) => setError(err.message || "Er is een fout opgetreden. Probeer het opnieuw."),
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setError("");
-    submitMutation.mutate({
-      name: formData.name,
-      phone: formData.phone,
-      email: formData.email || "",
-      date: formData.date,
-      time: formData.time,
-      service: `${formData.service} (120 min)`,
-      address: formData.address,
-      message: formData.message,
-    });
-  };
+ const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  setError("");
+  
+  // Maak WhatsApp bericht
+  const message = `Hallo! Ik wil graag een massage boeken.\n\nNaam: ${formData.name}\nTelefoon: ${formData.phone}\nE-mail: ${formData.email}\nGewenste Datum: ${formData.date}\nGewenst Tijdstip: ${formData.time}\nType Massage: ${formData.service}\nDuur: ${formData.duration} minuten\nAdres: ${formData.address}\nBericht: ${formData.message}`;
+  
+  // Open WhatsApp
+  const whatsappUrl = `https://wa.me/32470242929?text=${encodeURIComponent(message )}`;
+  window.open(whatsappUrl, '_blank');
+  
+  // Reset formulier
+  setSubmitted(true);
+  setTimeout(() => setSubmitted(false), 3000);
+};
 
   return (
     <section id="contact" className="section-padding bg-white">
