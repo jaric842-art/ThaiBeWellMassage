@@ -180,7 +180,7 @@ function Navbar() {
               className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium mt-2"
             >
               <Phone className="w-4 h-4" />
-              Bel 0492 76 76 44
+              Bel  0470 24 2929
             </a>
           </div>
         </motion.div>
@@ -258,7 +258,7 @@ function HeroSection() {
               style={{ fontFamily: "var(--font-body)" }}
             >
               <Phone className="w-5 h-5" />
-              Bel 0492 76 76 44
+              Bel  0470 24 2929
             </a>
           </motion.div>
         </div>
@@ -1366,7 +1366,7 @@ function ContactSection() {
                     </div>
                     <div>
                       <p className="text-sm font-medium" style={{ fontFamily: "var(--font-body)" }}>Telefoon</p>
-                      <p className="text-base font-semibold">0492 76 76 44</p>
+                      <p className="text-base font-semibold"> 0470 24 2929</p>
                     </div>
                   </a>
                   <a href="https://wa.me/32492767644" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
@@ -1401,7 +1401,7 @@ function ContactSection() {
                   className="inline-flex items-center justify-center gap-2 w-full px-6 py-4 bg-white text-primary rounded-full text-lg font-semibold tracking-wide transition-transform hover:scale-105 active:scale-95"
                 >
                   <Phone className="w-5 h-5" />
-                  0492 76 76 44
+                   0470 24 2929
                 </a>
               </div>
             </motion.div>
@@ -1447,7 +1447,7 @@ function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4" style={{ fontFamily: "var(--font-body)" }}>Contact</h4>
             <div className="space-y-2">
               <a href="tel:+32492767644" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors" style={{ fontFamily: "var(--font-body)" }}>
-                <Phone className="w-4 h-4" /> 0492 76 76 44
+                <Phone className="w-4 h-4" />  0470 24 2929
               </a>
               <a href="https://wa.me/32492767644" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors" style={{ fontFamily: "var(--font-body)" }}>
                 <MessageCircle className="w-4 h-4" /> WhatsApp
