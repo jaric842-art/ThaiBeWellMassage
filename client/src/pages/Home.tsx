@@ -137,7 +137,7 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+32492767644"
+            href="tel:+32470242929"
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-medium tracking-wide transition-transform hover:scale-105 active:scale-95"
             style={{ fontFamily: "var(--font-body)" }}
           >
@@ -176,7 +176,7 @@ function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+32492767644"
+              href="tel:+32470242929"
               className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium mt-2"
             >
               <Phone className="w-4 h-4" />
@@ -253,7 +253,7 @@ function HeroSection() {
               Boek Uw Massage
             </a>
             <a
-              href="tel:+32492767644"
+              href="tel:+32470242929"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/30 rounded-full text-base font-medium tracking-wide transition-all hover:bg-white/20"
               style={{ fontFamily: "var(--font-body)" }}
             >
@@ -792,7 +792,7 @@ function PriceCalculatorSection() {
                     Boek via WhatsApp
                   </a>
                   <a
-                    href="tel:+32492767644"
+                    href="tel:+32470242929"
                     className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-primary text-primary-foreground rounded-xl font-medium text-base tracking-wide transition-all hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]"
                     style={{ fontFamily: "var(--font-body)" }}
                   >
@@ -1361,7 +1361,7 @@ function ContactSection() {
               <div className="bg-primary/5 border border-primary/10 rounded-xl p-6">
                 <h3 className="text-lg font-semibold text-foreground mb-4">Direct Contact</h3>
                 <div className="space-y-4">
-                  <a href="tel:+32492767644" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
+                  <a href="tel:+32470242929" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group">
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                       <Phone className="w-5 h-5" />
                     </div>
@@ -1398,7 +1398,7 @@ function ContactSection() {
                   Wij staan klaar om u te helpen
                 </p>
                 <a
-                  href="tel:+32492767644"
+                  href="tel:+32470242929"
                   className="inline-flex items-center justify-center gap-2 w-full px-6 py-4 bg-white text-primary rounded-full text-lg font-semibold tracking-wide transition-transform hover:scale-105 active:scale-95"
                 >
                   <Phone className="w-5 h-5" />
@@ -1447,7 +1447,7 @@ function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4" style={{ fontFamily: "var(--font-body)" }}>Contact</h4>
             <div className="space-y-2">
-              <a href="tel:+32492767644" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors" style={{ fontFamily: "var(--font-body)" }}>
+              <a href="tel:+32470242929" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors" style={{ fontFamily: "var(--font-body)" }}>
                 <Phone className="w-4 h-4" />  0470 24 2929
               </a>
               <a href="https://wa.me/32492767644" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors" style={{ fontFamily: "var(--font-body)" }}>
@@ -1490,7 +1490,7 @@ function FloatingButtons() {
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
       <a
-        href="https://wa.me/32492767644"
+        href="https://wa.me/32470242929"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform"
@@ -1499,7 +1499,7 @@ function FloatingButtons() {
         <MessageCircle className="w-6 h-6 text-white" />
       </a>
       <a
-        href="tel:+32492767644"
+        href="tel:+32470242929"
         className="w-14 h-14 bg-primary rounded-full flex items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform"
         aria-label="Bel ons"
       >
