@@ -1218,6 +1218,19 @@ function ContactSection() {
           <motion.p variants={fadeInUp} className="text-muted-foreground text-lg max-w-2xl mx-auto" style={{ fontFamily: "var(--font-body)" }}>
             Vul het formulier in of bel ons direct voor een afspraak.
           </motion.p>
+          <motion.div
+  variants={fadeInUp}
+  className="max-w-xl mx-auto bg-amber-50 border border-amber-200 text-amber-900 rounded-xl p-4 text-sm text-center shadow-xs flex items-center justify-center gap-3"
+  style={{ fontFamily: "var(--font-body)" }}
+>
+  <span className="text-lg">ℹ️</span>
+  <span>
+    <strong>Belangrijk:</strong> Wij bieden uitsluitend professionele,
+    therapeutische Thaise massagetechnieken aan. <strong>Geen erotische
+    massage of seksuele diensten.</strong>
+  </span>
+</motion.div>
+
         </AnimatedSection>
 
         <div className="grid lg:grid-cols-5 gap-12 max-w-6xl mx-auto">
