@@ -285,36 +285,64 @@ function HeroSection() {
 
 // Services Section
 function ServicesSection() {
-  const services = [
-    {
-      title: "Thai Traditional Massage",
-      description: "Authentieke Thaise massage die het hele lichaam strekt en ontspant. Verbetert flexibiliteit en energiestroom door drukpunttechnieken.",
-      duration: "vanaf 120 min",
-      price: "vanaf €135",
-      icon: <Sparkles className="w-6 h-6" />,
-    },
-    {
-      title: "Sport Massage",
-      description: "Gerichte massage voor sporters en actieve mensen. Helpt bij herstel, voorkomt blessures en verlicht spierspanning.",
-      duration: "vanaf 120 min",
-      price: "vanaf €135",
-      icon: <Shield className="w-6 h-6" />,
-    },
-    {
-      title: "Deep Tissue Massage",
-      description: "Intensieve diepe weefselmassage die chronische spanning en knopen aanpakt. Ideaal bij hardnekkige klachten.",
-      duration: "vanaf 120 min",
-      price: "vanaf €135",
-      icon: <Heart className="w-6 h-6" />,
-    },
-    {
-      title: "Anti Stress Massage",
-      description: "Zachte, ontspannende massage die stress en spanning vermindert. Perfect voor mentale rust en diepe ontspanning.",
-      duration: "vanaf 120 min",
-      price: "vanaf €135",
-      icon: <Star className="w-6 h-6" />,
-    },
-  ];
+ const services = [
+  {
+    title: "Thai Traditional Massage",
+    description: "Authentieke Thaise massage die het hele lichaam strekt en ontspant. Verbetert flexibiliteit en energiestroom door drukpunttechnieken.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Sparkles className="w-6 h-6" />,
+  },
+  {
+    title: "Sport Massage",
+    description: "Gerichte massage voor sporters en actieve mensen. Helpt bij herstel, voorkomt blessures en verlicht spierspanning.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Shield className="w-6 h-6" />,
+  },
+  {
+    title: "Deep Tissue Massage",
+    description: "Intensieve diepe weefselmassage die chronische spanning en knopen aanpakt. Ideaal bij hardnekkige klachten.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Heart className="w-6 h-6" />,
+  },
+  {
+    title: "Anti Stress Massage",
+    description: "Zachte, ontspannende massage die stress en spanning vermindert. Perfect voor mentale rust en diepe ontspanning.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Star className="w-6 h-6" />,
+  },
+  {
+    title: "Relaxing Massage",
+    description: "Een heerlijk ontspannende massage die het zenuwstelsel tot rust brengt, stress vermindert en zorgt voor totale diepe ontspanning.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Sparkles className="w-6 h-6" />,
+  },
+  {
+    title: "Rug Nek Schouder massage",
+    description: "Gerichte behandeling op de meest belaste zones van het lichaam. Verlicht effectief chronische spanning, knopen en stijfheid.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Shield className="w-6 h-6" />,
+  },
+  {
+    title: "Zwangerschaps massage",
+    description: "Een veilige, verzachtende massage speciaal afgestemd op aanstaande moeders om rugpijn te verlichten en heerlijk te ontspannen.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Heart className="w-6 h-6" />,
+  },
+  {
+    title: "Voet massage",
+    description: "Traditionele reflexzonemassage die drukpunten op de voeten stimuleert om de doorbloeding te verbeteren en organen te ontspannen.",
+    duration: "vanaf 120 min",
+    price: "vanaf €135",
+    icon: <Star className="w-6 h-6" />,
+  },
+];
 
   return (
     <section id="services" className="section-padding bg-white">
