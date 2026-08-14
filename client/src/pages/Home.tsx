@@ -1344,10 +1344,15 @@ function ContactSection() {
                     style={{ fontFamily: "var(--font-body)" }}
                   >
                     <option value="">Selecteer een massage</option>
-                    <option value="thai-traditional">Thai Traditional Massage</option>
-                    <option value="sport">Sport Massage</option>
-                    <option value="deep-tissue">Deep Tissue Massage</option>
-                    <option value="anti-stress">Anti Stress Massage</option>
+<option value="Thai Traditional Massage">Thai Traditional Massage</option>
+<option value="Sport Massage">Sport Massage</option>
+<option value="Deep Tissue Massage">Deep Tissue Massage</option>
+<option value="Anti Stress Massage">Anti Stress Massage</option>
+<option value="Relaxing Massage">Relaxing Massage</option>
+<option value="Rug Nek Schouder massage">Rug Nek Schouder massage</option>
+<option value="Zwangerschaps massage">Zwangerschaps massage</option>
+<option value="Voet massage">Voet massage</option>
+
                   </select>
                 </div>
                 <div>
