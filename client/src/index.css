@@ -1,0 +1,131 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: oklch(0.985 0.005 85);
+  --color-foreground: oklch(0.25 0.02 50);
+  --color-card: oklch(0.99 0.003 85);
+  --color-card-foreground: oklch(0.25 0.02 50);
+  --color-popover: oklch(0.99 0.003 85);
+  --color-popover-foreground: oklch(0.25 0.02 50);
+  --color-primary: oklch(0.55 0.08 180);
+  --color-primary-foreground: oklch(0.99 0.003 85);
+  --color-secondary: oklch(0.92 0.02 85);
+  --color-secondary-foreground: oklch(0.35 0.03 50);
+  --color-muted: oklch(0.94 0.01 85);
+  --color-muted-foreground: oklch(0.5 0.02 50);
+  --color-accent: oklch(0.75 0.12 85);
+  --color-accent-foreground: oklch(0.25 0.02 50);
+  --color-destructive: oklch(0.55 0.2 25);
+  --color-destructive-foreground: oklch(0.99 0.003 85);
+  --color-border: oklch(0.88 0.02 85);
+  --color-input: oklch(0.88 0.02 85);
+  --color-ring: oklch(0.55 0.08 180);
+  --color-chart-1: oklch(0.55 0.08 180);
+  --color-chart-2: oklch(0.75 0.12 85);
+  --color-chart-3: oklch(0.65 0.1 50);
+  --color-chart-4: oklch(0.7 0.08 180);
+  --color-chart-5: oklch(0.6 0.15 85);
+  --color-sidebar: oklch(0.97 0.005 85);
+  --color-sidebar-foreground: oklch(0.25 0.02 50);
+  --color-sidebar-primary: oklch(0.55 0.08 180);
+  --color-sidebar-primary-foreground: oklch(0.99 0.003 85);
+  --color-sidebar-accent: oklch(0.92 0.02 85);
+  --color-sidebar-accent-foreground: oklch(0.35 0.03 50);
+  --color-sidebar-border: oklch(0.88 0.02 85);
+  --color-sidebar-ring: oklch(0.55 0.08 180);
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --font-sans: "Cormorant Garamond", "Georgia", serif;
+  --font-body: "Lato", "Helvetica Neue", sans-serif;
+}
+
+/* Custom color tokens for the wellness theme */
+:root {
+  --gold: oklch(0.75 0.12 85);
+  --gold-light: oklch(0.85 0.08 85);
+  --turquoise: oklch(0.55 0.08 180);
+  --turquoise-light: oklch(0.75 0.06 180);
+  --beige: oklch(0.94 0.02 85);
+  --beige-dark: oklch(0.88 0.03 85);
+  --cream: oklch(0.97 0.01 85);
+  --sand: oklch(0.90 0.03 70);
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer utilities {
+  .container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .container {
+      padding-inline: 2rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  .text-gold {
+    color: var(--gold);
+  }
+  .bg-gold {
+    background-color: var(--gold);
+  }
+  .text-turquoise {
+    color: var(--turquoise);
+  }
+  .bg-turquoise {
+    background-color: var(--turquoise);
+  }
+  .bg-beige {
+    background-color: var(--beige);
+  }
+  .bg-cream {
+    background-color: var(--cream);
+  }
+  .bg-sand {
+    background-color: var(--sand);
+  }
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+}
